@@ -167,6 +167,4 @@ object Day18 {
             }
         }
     }
-
-    private fun <T> List<T>.pairPermutations(): List<Pair<T, T>> = flatMap { item -> minus(item).map { item to it } }
 }
